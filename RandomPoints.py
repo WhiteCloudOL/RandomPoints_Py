@@ -1,5 +1,5 @@
 """
-Edit By WhiteCloudCN
+Edited By WhiteCloudCN
 随机抽取给予点券，源码仅供参考与公示，请勿滥用与盗窃
 另，请遵循开源许可
 """
