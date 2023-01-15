@@ -5,5 +5,5 @@ Automatically create a command to give random points in Minecraft Server(PlayerP
 ---
 # Recent Changes
 ### 2023/01/15 18:00
-#### 1.Add some descriptions and then published.
+#### Add some descriptions and then published.
 ---
