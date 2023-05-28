@@ -1,11 +1,11 @@
 """
-Edited By WhiteCloudCN
+Edit By WhiteCloudCN
 随机抽取给予点券，源码仅供参考与公示，请勿滥用与盗窃
-另，请遵循开源许可
 """
 
 # 导入模块
 from random import randint
+import os
 
 
 # 定义块
@@ -37,7 +37,10 @@ if pln > 1:
 else:
     pl = ply    # 特殊值
 # 随机抽取一定数量点券给予已抽取的玩家
+print('-----------------------------')
 for i in pl:
     rr = str(randint(plim[0], plim[1]) * jz)
     print('玩家[' + i + ']:' + rr)
     print('points give ' + str(i) + ' ' + str(rr))
+print('-----------------------------\n抽取成功')
+os.system('pause')
